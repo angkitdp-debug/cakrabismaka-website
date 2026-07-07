@@ -1,17 +1,58 @@
-Tentang Kami
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Kami - CV. Cakra Bismaka Maheswara</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-CV. Cakra Bismaka Maheswara merupakan perusahaan yang bergerak dalam penyediaan peralatan laboratorium, bahan pendukung penelitian, dan kebutuhan riset untuk institusi pendidikan, laboratorium, serta sektor industri.
+<body>
 
-Kami berkomitmen menyediakan produk laboratorium yang berkualitas dengan dukungan layanan profesional, mulai dari konsultasi kebutuhan, pengadaan, hingga dukungan teknis untuk membantu pelanggan mendapatkan solusi yang tepat sesuai kebutuhan penelitian dan pengembangan.
+<header>
+    <h1>CV. Cakra Bismaka Maheswara</h1>
+    <p>Solusi Kebutuhan Laboratorium dan Riset</p>
+</header>
 
-Dengan menjalin kerja sama bersama berbagai pemasok dan produsen terpercaya, kami menghadirkan beragam produk seperti peralatan laboratorium, instrumen analitik, consumables, serta reagent untuk mendukung kegiatan penelitian, pengujian, dan pendidikan.
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="#">Products</a>
+    <a href="#">Contact</a>
+</nav>
 
-Visi
+<section>
+    <h2>Tentang Kami</h2>
 
-Menjadi mitra terpercaya dalam penyediaan solusi laboratorium dan kebutuhan riset di Indonesia.
+    <p>
+    CV. Cakra Bismaka Maheswara merupakan perusahaan yang bergerak dalam
+    penyediaan peralatan laboratorium, bahan pendukung penelitian, dan
+    kebutuhan riset untuk institusi pendidikan, laboratorium, serta sektor industri.
+    </p>
 
-Misi
+    <p>
+    Kami berkomitmen menyediakan produk laboratorium berkualitas dengan layanan
+    profesional, mulai dari konsultasi kebutuhan, pengadaan produk, hingga
+    dukungan teknis untuk membantu pelanggan mendapatkan solusi yang tepat.
+    </p>
 
-- Menyediakan produk laboratorium berkualitas dengan pilihan yang sesuai kebutuhan pengguna.
-- Memberikan layanan pengadaan yang cepat, transparan, dan profesional.
-- Mendukung perkembangan penelitian melalui penyediaan fasilitas dan kebutuhan laboratorium yang tepat. 
+    <h2>Visi</h2>
+    <p>
+    Menjadi mitra terpercaya dalam penyediaan solusi laboratorium dan kebutuhan
+    riset di Indonesia.
+    </p>
+
+    <h2>Misi</h2>
+    <ul>
+        <li>Menyediakan produk laboratorium berkualitas sesuai kebutuhan pengguna.</li>
+        <li>Memberikan layanan pengadaan yang cepat dan profesional.</li>
+        <li>Mendukung perkembangan penelitian melalui solusi laboratorium yang tepat.</li>
+    </ul>
+</section>
+
+<footer>
+    <p>© CV. Cakra Bismaka Maheswara</p>
+</footer>
+
+</body>
+</html> 
