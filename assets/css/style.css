@@ -279,3 +279,137 @@ section{
     background:#fff;
     color:#0096db;
 }
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+    background:#0f172a;
+    color:#ffffff;
+    padding:60px 0 30px;
+}
+
+.footer-grid{
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr;
+    gap:40px;
+}
+
+.footer-grid h3,
+.footer-grid h4{
+    margin-bottom:20px;
+}
+
+.footer-grid p,
+.footer-grid li{
+    color:#cbd5e1;
+    line-height:1.8;
+}
+
+.footer-grid ul{
+    list-style:none;
+}
+
+.footer-grid a{
+    color:#cbd5e1;
+    transition:.3s;
+}
+
+.footer-grid a:hover{
+    color:#38bdf8;
+}
+
+.footer-bottom{
+    margin-top:40px;
+    border-top:1px solid rgba(255,255,255,.15);
+    padding-top:20px;
+    text-align:center;
+    color:#94a3b8;
+    font-size:14px;
+}
+
+/* ===========================
+   BUTTON
+=========================== */
+
+.btn-primary,
+.btn-secondary,
+.btn-nav{
+    transition:all .3s ease;
+}
+
+.btn-primary:hover,
+.btn-nav:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 25px rgba(0,150,219,.35);
+}
+
+.btn-secondary:hover{
+    background:#ffffff;
+    color:#0096db;
+}
+
+/* ===========================
+   ANIMATION
+=========================== */
+
+.card,
+.brand-item{
+    transition:all .35s ease;
+}
+
+.brand-item:hover{
+    transform:translateY(-6px);
+    box-shadow:0 15px 30px rgba(0,0,0,.12);
+}
+
+.card:hover{
+    box-shadow:0 18px 35px rgba(0,0,0,.12);
+}
+
+/* ===========================
+   WHATSAPP FLOAT
+=========================== */
+
+.whatsapp{
+    position:fixed;
+    right:25px;
+    bottom:25px;
+    width:60px;
+    height:60px;
+    background:#25D366;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
+    font-size:30px;
+    text-decoration:none;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+    z-index:9999;
+    transition:.3s;
+}
+
+.whatsapp:hover{
+    transform:scale(1.1);
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:992px){
+
+.hero-content,
+.about-content{
+    flex-direction:column;
+    text-align:center;
+}
+
+.hero-text h1{
+    font-size:38px;
+}
+
+.footer-grid{
+    grid-template-columns:1fr;
+}
