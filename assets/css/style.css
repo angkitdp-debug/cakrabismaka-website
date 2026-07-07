@@ -1,1 +1,143 @@
-/* Cakra Bismaka Maheswara Website */
+/* ==========================================
+   CV. Cakra Bismaka Maheswara
+   Version 1.0
+========================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    color:#333;
+    background:#f7f9fc;
+    line-height:1.6;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+a{
+    text-decoration:none;
+}
+
+img{
+    max-width:100%;
+}
+
+/* NAVBAR */
+
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background:#ffffff;
+    box-shadow:0 2px 15px rgba(0,0,0,.08);
+    z-index:999;
+}
+
+.navbar .container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 0;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-weight:700;
+    color:#0077cc;
+}
+
+.logo img{
+    height:48px;
+}
+
+nav{
+    display:flex;
+    gap:25px;
+}
+
+nav a{
+    color:#333;
+    font-weight:500;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#0096db;
+}
+
+.btn-nav{
+    background:#0096db;
+    color:white;
+    padding:12px 20px;
+    border-radius:8px;
+    transition:.3s;
+}
+
+.btn-nav:hover{
+    background:#0072b1;
+}
+
+/* HERO */
+
+.hero{
+    padding:150px 0 90px;
+    background:linear-gradient(135deg,#0096db,#00c4b3);
+    color:white;
+}
+
+.hero-content{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:50px;
+}
+
+.hero-text{
+    flex:1;
+}
+
+.hero-text h1{
+    font-size:48px;
+    line-height:1.2;
+    margin-bottom:20px;
+}
+
+.hero-text p{
+    font-size:18px;
+    margin-bottom:30px;
+}
+
+.hero-button{
+    display:flex;
+    gap:15px;
+}
+
+.btn-primary{
+    background:white;
+    color:#0096db;
+    padding:14px 28px;
+    border-radius:8px;
+    font-weight:600;
+}
+
+.btn-secondary{
+    border:2px solid white;
+    color:white;
+    padding:14px 28px;
+    border-radius:8px;
+}
+
+.hero-image{
+    flex:1;
+}
