@@ -1249,3 +1249,73 @@ img:hover{
     }
 
 }
+/* ==========================================
+   MOBILE RESPONSIVE
+========================================== */
+
+@media (max-width:768px){
+
+    .hero{
+
+        min-height:auto;
+
+        padding:120px 0 70px;
+
+        background-position:75% center;
+
+        background-size:cover;
+
+    }
+
+    .hero-content{
+
+        min-height:auto;
+
+        display:block;
+
+    }
+
+    .hero-text{
+
+        max-width:100%;
+
+        margin:0;
+
+    }
+
+    .hero h1{
+
+        font-size:36px;
+
+        line-height:1.2;
+
+        margin-bottom:18px;
+
+    }
+
+    .hero p{
+
+        font-size:16px;
+
+        line-height:1.7;
+
+    }
+
+    .hero-buttons{
+
+        flex-direction:column;
+
+        gap:12px;
+
+    }
+
+    .btn-primary,
+    .btn-glass{
+
+        width:100%;
+
+        text-align:center;
+
+    }
+
+}
