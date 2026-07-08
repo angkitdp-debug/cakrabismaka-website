@@ -361,7 +361,9 @@ background:var(--primary-dark);
     display:flex;
 
     align-items:center;
-
+   
+    padding-top:82px;
+   
     background:
     linear-gradient(
         90deg,
@@ -1256,7 +1258,7 @@ img:hover{
 @media (max-width:768px){
 
     .hero{
-
+        padding-top:130px;
         min-height:auto;
 
         padding:120px 0 70px;
