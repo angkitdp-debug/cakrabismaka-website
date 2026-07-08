@@ -1257,11 +1257,26 @@ img:hover{
 
 @media (max-width:768px){
 
-    .hero{
-        padding-top:130px;
-        min-height:auto;
+    @media (max-width:768px){
 
-        padding:120px 0 70px;
+    /* Navbar */
+    .navbar .container{
+        height:70px;
+        padding:0 15px;
+    }
+
+    .logo img{
+        height:38px;
+    }
+
+    /* Hero */
+    .hero{
+
+        margin-top:70px;
+
+        min-height:calc(100vh - 70px);
+
+        padding:40px 0;
 
         background-position:75% center;
 
@@ -1271,9 +1286,9 @@ img:hover{
 
     .hero-content{
 
-        min-height:auto;
-
         display:block;
+
+        min-height:auto;
 
     }
 
@@ -1287,7 +1302,7 @@ img:hover{
 
     .hero h1{
 
-        font-size:36px;
+        font-size:34px;
 
         line-height:1.2;
 
@@ -1305,6 +1320,8 @@ img:hover{
 
     .hero-buttons{
 
+        display:flex;
+
         flex-direction:column;
 
         gap:12px;
@@ -1318,6 +1335,28 @@ img:hover{
 
         text-align:center;
 
+    }
+
+    .hero-stats{
+
+        margin-top:30px;
+
+        display:grid;
+
+        grid-template-columns:repeat(3,1fr);
+
+        gap:10px;
+
+        text-align:center;
+
+    }
+
+    .hero-stats h3{
+        font-size:20px;
+    }
+
+    .hero-stats span{
+        font-size:12px;
     }
 
 }
