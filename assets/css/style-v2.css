@@ -370,7 +370,7 @@ background:var(--primary-dark);
         rgba(255,255,255,.45) 65%,
         rgba(255,255,255,.05) 100%
     ),
-    url("../img/home/hero-lab.png");
+    url("../img/hero-image.png");
 
     background-size:cover;
 
