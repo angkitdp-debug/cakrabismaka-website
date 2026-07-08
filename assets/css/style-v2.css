@@ -380,8 +380,8 @@ background:var(--primary-dark);
 
 }
 .hero .container{
-    width:90%;
-    max-width:1200px;
+    width:75%;
+    max-width:900px;
     margin:auto;
 }
 
