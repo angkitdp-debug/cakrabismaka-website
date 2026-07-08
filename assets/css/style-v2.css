@@ -293,29 +293,38 @@ color:#fff;
 
 .btn-nav{
 
-display:inline-flex;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
 
-align-items:center;
+    height:42px;
+    padding:0 20px;
 
-justify-content:center;
+    background:#0B84D8;
+    color:#fff;
 
-padding:12px 24px;
+    border-radius:50px;
 
-background:var(--primary);
+    font-size:14px;
+    font-weight:600;
 
-color:#fff;
+    letter-spacing:.2px;
 
-border-radius:10px;
+    box-shadow:0 8px 20px rgba(11,132,216,.18);
 
-font-weight:600;
-
-transition:var(--transition);
+    transition:all .3s ease;
 
 }
 
 .btn-nav:hover{
 
-background:var(--primary-dark);
+    background:#0A76C2;
+
+    transform:translateY(-2px);
+
+    box-shadow:0 12px 24px rgba(11,132,216,.25);
+
+}
 
 }
 .btn-glass{
