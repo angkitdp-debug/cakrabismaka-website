@@ -145,35 +145,7 @@ z-index:999;
 
 }
 
-/* ========= NAVBAR ========= */
 
-.navbar{
-
-    position:fixed;
-
-    top:20px;
-
-    left:50%;
-
-    transform:translateX(-50%);
-
-    width:95%;
-
-    max-width:1400px;
-
-    background:rgba(255,255,255,.88);
-
-    backdrop-filter:blur(18px);
-
-    border:1px solid rgba(255,255,255,.45);
-
-    border-radius:18px;
-
-    box-shadow:0 12px 35px rgba(0,0,0,.08);
-
-    z-index:999;
-
-}
 /* ========= BUTTON ========= */
 
 .btn-primary{
