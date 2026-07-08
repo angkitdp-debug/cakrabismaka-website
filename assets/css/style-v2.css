@@ -403,37 +403,46 @@ background:var(--primary-dark);
 }
 
 .hero-badge{
-    display:inline-block;
-    background:rgba(255,255,255,.15);
+
+    font-size:13px;
+
     padding:8px 18px;
-    border-radius:50px;
-    margin-bottom:25px;
-    font-size:.9rem;
-    font-weight:500;
+
 }
 
-.hero-text h1{
+.hero h1{
+
+    font-size:56px;
+
+    font-weight:700;
+
+    line-height:1.15;
 
     color:#0B1F44;
 
-    font-size:68px;
-
-    font-weight:800;
+    margin-bottom:24px;
 
 }
 
-.hero-text p{
+.hero p{
+
+    font-size:18px;
+
+    line-height:1.8;
 
     color:#5B6575;
 
-    font-size:20px;
+    max-width:580px;
 
 }
 
-.hero-buttons{
-    display:flex;
-    gap:15px;
-    flex-wrap:wrap;
+.btn-primary,
+.btn-glass{
+
+    padding:14px 28px;
+
+    font-size:15px;
+
 }
 
 .hero-image{
