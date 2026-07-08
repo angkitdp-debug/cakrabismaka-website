@@ -393,8 +393,8 @@ background:var(--primary-dark);
 }
 
 .hero-text{
-    flex:1;
-    min-width:320px;
+    max-width:620px;
+    margin-left:-30px;
 }
 
 .hero-badge{
