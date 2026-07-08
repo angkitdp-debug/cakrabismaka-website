@@ -413,3 +413,272 @@ footer{
 .footer-grid{
     grid-template-columns:1fr;
 }
+/* =====================================================
+   PRODUCTS PAGE
+===================================================== */
+
+/* Hero */
+
+.products-hero{
+    background:linear-gradient(135deg,#0d6efd,#0b4ea2);
+    color:#fff;
+    padding:90px 0;
+}
+
+.hero-content{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:60px;
+    flex-wrap:wrap;
+}
+
+.hero-text{
+    flex:1;
+    min-width:320px;
+}
+
+.hero-image{
+    flex:1;
+    text-align:center;
+}
+
+.hero-image img{
+    width:100%;
+    max-width:500px;
+}
+
+.hero-badge{
+    display:inline-block;
+    background:rgba(255,255,255,.15);
+    padding:8px 18px;
+    border-radius:50px;
+    font-size:.9rem;
+    margin-bottom:20px;
+}
+
+.hero-text h1{
+    font-size:48px;
+    margin-bottom:20px;
+    line-height:1.2;
+}
+
+.hero-text p{
+    font-size:18px;
+    line-height:1.8;
+    opacity:.95;
+    margin-bottom:35px;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+/* Secondary Button */
+
+.btn-secondary{
+    display:inline-block;
+    padding:13px 30px;
+    border:2px solid #fff;
+    border-radius:8px;
+    color:#fff;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.btn-secondary:hover{
+    background:#fff;
+    color:#0d6efd;
+}
+
+/* Search */
+
+.product-search{
+    padding:40px 0;
+    background:#f7f9fc;
+}
+
+.search-box{
+    max-width:700px;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    background:#fff;
+    border-radius:50px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    padding:15px 25px;
+}
+
+.search-box i{
+    color:#777;
+    font-size:18px;
+}
+
+.search-box input{
+    width:100%;
+    border:none;
+    outline:none;
+    margin-left:15px;
+    font-size:16px;
+    font-family:'Poppins',sans-serif;
+}
+
+/* Sections */
+
+.products-section,
+.featured-products,
+.brands-section,
+.cta-section{
+    padding:80px 0;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    font-size:36px;
+    margin-bottom:15px;
+}
+
+.section-title p{
+    max-width:700px;
+    margin:auto;
+    color:#666;
+    line-height:1.8;
+}
+
+/* Grid */
+
+.product-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+/* Card */
+
+.product-card{
+    background:#fff;
+    border-radius:16px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.35s;
+}
+
+.product-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+.product-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.product-info{
+    padding:25px;
+}
+
+.product-info h3{
+    margin-bottom:15px;
+    color:#1b1b1b;
+}
+
+.product-info p{
+    color:#666;
+    line-height:1.7;
+    margin-bottom:20px;
+}
+
+/* Featured Products */
+
+.featured-products{
+    background:#f8fafc;
+}
+
+.featured-products .product-card{
+    padding:30px;
+}
+
+.featured-products .product-card h3{
+    margin-bottom:15px;
+    color:#0d6efd;
+}
+
+.featured-products .product-card p{
+    color:#666;
+}
+
+/* Brands */
+
+.brand-list{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:18px;
+}
+
+.brand-list span{
+    padding:14px 24px;
+    border-radius:40px;
+    background:#fff;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    font-weight:600;
+    transition:.3s;
+}
+
+.brand-list span:hover{
+    background:#0d6efd;
+    color:#fff;
+}
+
+/* CTA */
+
+.cta-section{
+    background:linear-gradient(135deg,#0d6efd,#004ea8);
+    color:#fff;
+    text-align:center;
+}
+
+.cta-section h2{
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.cta-section p{
+    max-width:700px;
+    margin:auto;
+    margin-bottom:35px;
+    line-height:1.8;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.hero-text h1{
+    font-size:34px;
+}
+
+.hero-content{
+    text-align:center;
+}
+
+.hero-buttons{
+    justify-content:center;
+}
+
+.section-title h2{
+    font-size:28px;
+}
+
+.cta-section h2{
+    font-size:30px;
+}
+
+}
