@@ -318,6 +318,36 @@ transition:var(--transition);
 background:var(--primary-dark);
 
 }
+.btn-glass{
+
+    display:inline-block;
+
+    padding:15px 35px;
+
+    border-radius:12px;
+
+    border:1px solid rgba(13,110,253,.2);
+
+    background:rgba(255,255,255,.35);
+
+    backdrop-filter:blur(15px);
+    -webkit-backdrop-filter:blur(15px);
+
+    color:#0d6efd;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.btn-glass:hover{
+
+    background:#0d6efd;
+
+    color:#fff;
+
+}
 /* ==========================================
    HERO SECTION
 ========================================== */
@@ -374,17 +404,21 @@ background:var(--primary-dark);
 }
 
 .hero-text h1{
-    font-size:52px;
-    line-height:1.2;
-    margin-bottom:25px;
-    color:#fff;
+
+    color:#0B1F44;
+
+    font-size:68px;
+
+    font-weight:800;
+
 }
 
 .hero-text p{
-    font-size:18px;
-    opacity:.95;
-    margin-bottom:35px;
-    max-width:650px;
+
+    color:#5B6575;
+
+    font-size:20px;
+
 }
 
 .hero-buttons{
