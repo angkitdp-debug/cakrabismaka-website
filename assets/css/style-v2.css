@@ -379,6 +379,12 @@ background:var(--primary-dark);
     background-repeat:no-repeat;
 
 }
+.hero .container{
+
+    width:98%;
+    max-width:1400px;
+
+}
 
 .hero-content{
 
