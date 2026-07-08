@@ -381,11 +381,15 @@ background:var(--primary-dark);
 }
 
 .hero-content{
+
     display:flex;
+
     align-items:center;
-    justify-content:space-between;
-    gap:70px;
-    flex-wrap:wrap;
+
+    min-height:90vh;
+
+    width:55%;
+
 }
 
 .hero-text{
