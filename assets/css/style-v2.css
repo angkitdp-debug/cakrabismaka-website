@@ -318,3 +318,241 @@ transition:var(--transition);
 background:var(--primary-dark);
 
 }
+/* ==========================================
+   HERO SECTION
+========================================== */
+
+.hero,
+.products-hero{
+    padding:160px 0 100px;
+    background:linear-gradient(135deg,#0096DB,#00B4D8);
+    color:#fff;
+}
+
+.hero-content{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:70px;
+    flex-wrap:wrap;
+}
+
+.hero-text{
+    flex:1;
+    min-width:320px;
+}
+
+.hero-badge{
+    display:inline-block;
+    background:rgba(255,255,255,.15);
+    padding:8px 18px;
+    border-radius:50px;
+    margin-bottom:25px;
+    font-size:.9rem;
+    font-weight:500;
+}
+
+.hero-text h1{
+    font-size:52px;
+    line-height:1.2;
+    margin-bottom:25px;
+    color:#fff;
+}
+
+.hero-text p{
+    font-size:18px;
+    opacity:.95;
+    margin-bottom:35px;
+    max-width:650px;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.hero-image{
+    flex:1;
+    min-width:320px;
+    text-align:center;
+}
+
+.hero-image img{
+    width:100%;
+    max-width:520px;
+    margin:auto;
+}
+
+
+/* ==========================================
+   SEARCH BOX
+========================================== */
+
+.product-search{
+    padding:50px 0;
+    background:#fff;
+}
+
+.search-box{
+    max-width:750px;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    gap:15px;
+    background:#fff;
+    padding:18px 25px;
+    border-radius:60px;
+    box-shadow:var(--shadow);
+}
+
+.search-box i{
+    color:var(--gray);
+    font-size:18px;
+}
+
+.search-box input{
+    width:100%;
+    border:none;
+    outline:none;
+    font-size:16px;
+    font-family:'Poppins',sans-serif;
+}
+
+
+/* ==========================================
+   PRODUCT GRID
+========================================== */
+
+.product-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:35px;
+}
+
+
+/* ==========================================
+   PRODUCT CARD
+========================================== */
+
+.product-card{
+    background:#fff;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:var(--shadow);
+    transition:var(--transition);
+}
+
+.product-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 45px rgba(0,0,0,.15);
+}
+
+.product-card img{
+    width:100%;
+    height:230px;
+    object-fit:cover;
+}
+
+.product-info{
+    padding:28px;
+}
+
+.product-info h3{
+    font-size:22px;
+    color:var(--dark);
+    margin-bottom:15px;
+}
+
+.product-info p{
+    color:var(--gray);
+    margin-bottom:25px;
+}
+
+
+/* ==========================================
+   FEATURED PRODUCTS
+========================================== */
+
+.featured-products{
+    background:#F8FAFC;
+}
+
+.featured-products .product-card{
+    padding:35px;
+}
+
+.featured-products h3{
+    color:var(--primary);
+    margin-bottom:15px;
+    font-size:22px;
+}
+
+.featured-products p{
+    color:var(--gray);
+}
+
+
+/* ==========================================
+   CATEGORY ICON
+========================================== */
+
+.product-icon{
+
+width:85px;
+
+height:85px;
+
+background:#EAF7FD;
+
+border-radius:50%;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+margin:30px auto 15px;
+
+}
+
+.product-icon i{
+
+font-size:40px;
+
+color:var(--primary);
+
+}
+
+
+/* ==========================================
+   PRODUCT BUTTON
+========================================== */
+
+.product-card .btn-primary{
+
+width:100%;
+
+justify-content:center;
+
+}
+
+
+/* ==========================================
+   HOVER EFFECT
+========================================== */
+
+.product-card:hover img{
+
+transform:scale(1.05);
+
+transition:.5s;
+
+}
+
+.product-card img{
+
+transition:.5s;
+
+}
