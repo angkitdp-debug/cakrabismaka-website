@@ -556,3 +556,348 @@ transition:.5s;
 transition:.5s;
 
 }
+/* ==========================================
+   BRANDS SECTION
+========================================== */
+
+.brands-section{
+    background:#ffffff;
+}
+
+.brand-list{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:25px;
+    margin-top:40px;
+}
+
+.brand-list span{
+    background:#fff;
+    border:1px solid #e2e8f0;
+    border-radius:16px;
+    padding:22px 15px;
+    text-align:center;
+    font-weight:600;
+    color:var(--dark);
+    box-shadow:var(--shadow);
+    transition:var(--transition);
+}
+
+.brand-list span:hover{
+    background:var(--primary);
+    color:#fff;
+    transform:translateY(-8px);
+}
+
+
+/* ==========================================
+   CTA SECTION
+========================================== */
+
+.cta-section{
+
+    background:linear-gradient(135deg,#0096DB,#0077B6);
+
+    color:#fff;
+
+    text-align:center;
+
+}
+
+.cta-section h2{
+
+    font-size:42px;
+
+    margin-bottom:20px;
+
+}
+
+.cta-section p{
+
+    max-width:720px;
+
+    margin:auto;
+
+    margin-bottom:35px;
+
+    opacity:.95;
+
+}
+
+.cta-section .btn-primary{
+
+    background:#fff;
+
+    color:var(--primary);
+
+}
+
+.cta-section .btn-primary:hover{
+
+    background:#F8FAFC;
+
+}
+
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+footer{
+
+    background:#0F172A;
+
+    color:#fff;
+
+    padding:70px 0 30px;
+
+}
+
+.footer-grid{
+
+    display:grid;
+
+    grid-template-columns:2fr 1fr 1fr 1fr;
+
+    gap:40px;
+
+}
+
+.footer-grid h3,
+.footer-grid h4{
+
+    margin-bottom:20px;
+
+}
+
+.footer-grid p{
+
+    color:#CBD5E1;
+
+    line-height:1.9;
+
+}
+
+.footer-grid ul{
+
+    list-style:none;
+
+}
+
+.footer-grid li{
+
+    margin-bottom:12px;
+
+}
+
+.footer-grid a{
+
+    color:#CBD5E1;
+
+    transition:var(--transition);
+
+}
+
+.footer-grid a:hover{
+
+    color:#38BDF8;
+
+    padding-left:5px;
+
+}
+
+.footer-bottom{
+
+    margin-top:50px;
+
+    padding-top:25px;
+
+    border-top:1px solid rgba(255,255,255,.12);
+
+    text-align:center;
+
+    color:#94A3B8;
+
+}
+
+
+/* ==========================================
+   SOCIAL ICON
+========================================== */
+
+.social-icons{
+
+    display:flex;
+
+    gap:12px;
+
+    margin-top:20px;
+
+}
+
+.social-icons a{
+
+    width:42px;
+
+    height:42px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:rgba(255,255,255,.08);
+
+    border-radius:50%;
+
+    color:#fff;
+
+    transition:var(--transition);
+
+}
+
+.social-icons a:hover{
+
+    background:var(--primary);
+
+    transform:translateY(-5px);
+
+}
+
+
+/* ==========================================
+   WHATSAPP FLOAT
+========================================== */
+
+.whatsapp{
+
+    position:fixed;
+
+    right:25px;
+
+    bottom:25px;
+
+    width:65px;
+
+    height:65px;
+
+    background:#25D366;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#fff;
+
+    font-size:30px;
+
+    box-shadow:0 15px 30px rgba(0,0,0,.25);
+
+    transition:var(--transition);
+
+    z-index:999;
+
+}
+
+.whatsapp:hover{
+
+    transform:scale(1.1);
+
+}
+
+
+/* ==========================================
+   BACK TO TOP
+========================================== */
+
+.back-top{
+
+    position:fixed;
+
+    right:25px;
+
+    bottom:105px;
+
+    width:52px;
+
+    height:52px;
+
+    border-radius:50%;
+
+    background:var(--primary);
+
+    color:#fff;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:20px;
+
+    opacity:0;
+
+    visibility:hidden;
+
+    transition:var(--transition);
+
+    z-index:998;
+
+}
+
+.back-top.show{
+
+    opacity:1;
+
+    visibility:visible;
+
+}
+
+
+/* ==========================================
+   SIMPLE ANIMATION
+========================================== */
+
+.fade-up{
+
+    animation:fadeUp .8s ease both;
+
+}
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(30px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+.shadow-hover{
+
+    transition:var(--transition);
+
+}
+
+.shadow-hover:hover{
+
+    box-shadow:0 20px 45px rgba(0,0,0,.15);
+
+}
