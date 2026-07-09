@@ -1405,23 +1405,72 @@ img:hover{
 
     ...
 </section> 
-/* ========= PRODUCTS HERO ========= */
+/* ==========================================
+   PAGE HERO (About, Products, Services, Contact)
+========================================== */
 
-.products-hero{
+.page-hero{
 
-    background:
-        linear-gradient(
-            to right,
-            rgba(255,255,255,.93) 35%,
-            rgba(255,255,255,.55) 60%,
-            rgba(255,255,255,.10)
-        ),
-        url("../img/products-banner.png");
+    position:relative;
 
-    background-size:cover;
+    min-height:65vh;
 
-    background-position:center;
+    display:flex;
 
-    background-repeat:no-repeat;
+    align-items:center;
+
+    padding-top:82px;
+
+}
+
+.page-hero .container{
+
+    width:90%;
+
+    max-width:1300px;
+
+    margin:auto;
+
+}
+
+.page-hero .hero-content{
+
+    max-width:650px;
+
+    width:100%;
+
+}
+
+.page-hero h1{
+
+    font-size:56px;
+
+    line-height:1.15;
+
+    color:#0B1F44;
+
+    margin-bottom:22px;
+
+}
+
+.page-hero p{
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    color:#5B6575;
+
+    margin-bottom:30px;
+
+}
+
+.page-hero .hero-buttons{
+
+    display:flex;
+
+    gap:18px;
+
+    flex-wrap:wrap;
 
 }
