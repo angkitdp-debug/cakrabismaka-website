@@ -1369,3 +1369,39 @@ img:hover{
     }
 
 }
+<body>
+
+<header>
+    <!-- Navbar -->
+</header>
+
+<!-- Products Hero -->
+<section class="products-hero">
+
+    <div class="container hero-content">
+
+        <div class="hero-text">
+
+            <span class="hero-badge">
+                Complete Laboratory Solutions
+            </span>
+
+            <h1>Laboratory Equipment & Scientific Products</h1>
+
+            <p>
+                Explore our comprehensive range of laboratory equipment,
+                analytical instruments, chemicals, reagents and scientific
+                solutions.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Product Categories -->
+<section class="products">
+
+    ...
+</section> 
