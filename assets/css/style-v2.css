@@ -178,13 +178,12 @@ color:var(--gray);
 
 }
 nav{
-    display:flex;
-    align-items:center;
-    gap:30px;
-    margin-left:auto;
-} 
 
-}
+    display:flex;
+
+    gap:30px;
+
+} 
 
 nav a{
 
