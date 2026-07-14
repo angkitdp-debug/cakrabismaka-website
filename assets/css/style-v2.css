@@ -1784,3 +1784,43 @@ img:hover{
 }
 
 }
+/* ==========================
+   QUOTE CART
+========================== */
+
+.quote-cart{
+    position:relative;
+    width:46px;
+    height:46px;
+    border-radius:50%;
+    background:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#0B84D8;
+    font-size:20px;
+    border:2px solid #0B84D8;
+    margin-right:15px;
+    transition:.3s;
+}
+
+.quote-cart:hover{
+    background:#0B84D8;
+    color:#fff;
+}
+
+.quote-count{
+    position:absolute;
+    top:-6px;
+    right:-6px;
+    width:22px;
+    height:22px;
+    border-radius:50%;
+    background:#ff3b30;
+    color:#fff;
+    font-size:12px;
+    font-weight:700;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
