@@ -178,10 +178,11 @@ color:var(--gray);
 
 }
 nav{
-
     display:flex;
-
+    align-items:center;
     gap:30px;
+    margin-left:auto;
+} 
 
 }
 
@@ -226,7 +227,12 @@ nav a.active::after{
     border-radius:5px;
 
 }
-
+.nav-actions{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin-left:25px;
+}
 
 /* ========= BUTTON ========= */
 
