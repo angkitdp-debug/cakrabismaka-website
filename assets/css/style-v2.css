@@ -1847,3 +1847,11 @@ img:hover{
     margin: 20px auto;
 
 }
+/* Eppendorf Product Images */
+.eppendorf-grid .brand-card img{
+    width: 140px !important;
+    height: 140px !important;
+    object-fit: contain !important;
+    display: block;
+    margin: 20px auto !important;
+}
