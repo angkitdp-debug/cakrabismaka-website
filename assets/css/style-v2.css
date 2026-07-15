@@ -126,23 +126,20 @@ color:var(--gray);
 /* ========= NAVBAR ========= */
 
 .navbar{
+/* ========= NAVBAR ========= */
+
+.navbar{
 
     position:fixed;
     top:0;
     left:0;
     width:100%;
 
-    background:rgba(255,255,255,.92);
+    background:linear-gradient(90deg,#0B6E4F,#1F8A70,#38A169);
 
-    backdrop-filter:blur(15px);
-
-    box-shadow:0 4px 18px rgba(0,0,0,.05);
-
-    border-bottom:1px solid rgba(0,0,0,.05);
+    box-shadow:0 4px 18px rgba(0,0,0,.15);
 
     z-index:999;
-
-    transition:all .3s ease;
 
 }
 .navbar .container{
@@ -187,45 +184,34 @@ nav{
 
 nav a{
 
+    color:#ffffff;
     font-weight:500;
-
-    transition:var(--transition);
-
-    position:relative;
+    transition:0.3s;
 
 }
 
-nav a:hover{
-
-    color:var(--primary);
-
-}
-
+nav a:hover,
 nav a.active{
 
-    color:var(--primary);
+    color:#FFE082;
 
 }
 
 nav a.active::after{
 
     content:"";
-
     position:absolute;
-
     left:0;
-
     bottom:-8px;
-
     width:100%;
-
     height:3px;
-
-    background:var(--primary);
-
+    background:#FFE082;
     border-radius:5px;
 
-}
+} 
+
+nav a:hover{
+
 
 /* ========= BUTTON ========= */
 
