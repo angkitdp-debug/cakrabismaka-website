@@ -1831,3 +1831,19 @@ img:hover{
     align-items:center;
 
 }
+/* =========================
+   EPPENDORF PRODUCT CARD
+========================= */
+
+.eppendorf-grid .brand-card img{
+
+    width: 85%;
+    height: 180px;
+
+    object-fit: contain;
+
+    display: block;
+
+    margin: 20px auto;
+
+}
