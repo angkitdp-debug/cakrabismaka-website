@@ -1,27 +1,34 @@
-document.querySelectorAll(".add-to-quote").forEach(button => {
+document.addEventListener("DOMContentLoaded", function () {
 
-    button.addEventListener("click", function(){
+    const buttons = document.querySelectorAll(".add-to-quote");
 
-        let product = {
-            name: this.dataset.name,
-            brand: this.dataset.brand,
-            category: this.dataset.category,
-            qty: 1
-        };
+    buttons.forEach(function (button) {
 
-        let quote = JSON.parse(localStorage.getItem("quote")) || [];
+        button.addEventListener("click", function () {
 
-        let existing = quote.find(item => item.name === product.name);
+            const product = {
+                name: this.dataset.name,
+                brand: this.dataset.brand,
+                category: this.dataset.category,
+                qty: 1
+            };
 
-        if(existing){
-            existing.qty++;
-        }else{
-            quote.push(product);
-        }
+            let quote = JSON.parse(localStorage.getItem("quote")) || [];
 
-        localStorage.setItem("quote", JSON.stringify(quote));
+            const existing = quote.find(item => item.name === product.name);
 
-        alert(product.name + " added to Quote.");
+            if (existing) {
+                existing.qty++;
+            } else {
+                quote.push(product);
+            }
+
+            localStorage.setItem("quote", JSON.stringify(quote));
+
+            alert(product.name + " added to Quote!");
+
+        });
+
     });
 
 }); 
