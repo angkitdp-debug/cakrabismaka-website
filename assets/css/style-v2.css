@@ -1822,7 +1822,7 @@ img:hover{
 
     background:
     linear-gradient(rgba(8,35,74,.45), rgba(8,35,74,.45)),
-    url("../img/hero/eppendorf-hero.jpg") center center/cover no-repeat;
+    url("../../img/hero/eppendorf-hero.jpg") center center/cover no-repeat;
 
     min-height:520px;
 
