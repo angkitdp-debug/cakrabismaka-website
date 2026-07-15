@@ -1807,3 +1807,27 @@ img:hover{
     align-items:center;
     justify-content:center;
 }
+/* ===========================
+   FOOTER
+=========================== */
+
+
+
+
+/* ===========================
+   EPPENDORF HERO
+=========================== */
+
+.eppendorf-hero{
+
+    background:
+    linear-gradient(rgba(8,35,74,.45), rgba(8,35,74,.45)),
+    url("../img/hero/eppendorf-hero.jpg") center center/cover no-repeat;
+
+    min-height:520px;
+
+    display:flex;
+
+    align-items:center;
+
+}
