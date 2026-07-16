@@ -1855,3 +1855,50 @@ img:hover{
     display: block;
     margin: 20px auto !important;
 }
+/* ================= OFFICIAL STORE ================= */
+
+.official-store{
+    padding:80px 0;
+    background:#f8fafc;
+}
+
+.store-card{
+    max-width:900px;
+    margin:auto;
+    background:#fff;
+    border-radius:20px;
+    padding:50px;
+    text-align:center;
+    box-shadow:0 10px 35px rgba(0,0,0,.08);
+}
+
+.store-badge{
+    display:inline-block;
+    background:#16a34a;
+    color:#fff;
+    padding:8px 18px;
+    border-radius:30px;
+    font-size:14px;
+    font-weight:600;
+    margin-bottom:20px;
+}
+
+.store-info{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    margin:35px 0;
+}
+
+.info-item{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    font-weight:600;
+}
+
+.btn-store{
+    padding:16px 34px;
+    font-size:18px;
+}
