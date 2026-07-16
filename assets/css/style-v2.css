@@ -1882,7 +1882,17 @@ img:hover{
     font-weight:600;
     margin-bottom:20px;
 }
+   
+.store-logo{
+    text-align:center;
+    margin-bottom:20px;
+}
 
+.store-logo img{
+    width:120px;
+    height:auto;
+}
+   
 .store-info{
     display:flex;
     justify-content:center;
