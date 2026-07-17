@@ -1938,7 +1938,13 @@ img:hover{
     transform:translateY(-8px);
 }
 
-.market-card img,
+.market-card img{
+   width:40px;
+   max-width:40px;
+   object-fit:contain;
+   display:block;
+   margin:0 auto 20px;
+}
 .market-card i{
     width:48px;
     height:48px;
