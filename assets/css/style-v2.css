@@ -1757,6 +1757,9 @@ img:hover{
 }
 
 @media (max-width:768px){
+.hero{
+   padding-top:220px;
+}
 
 .gallery-grid{
     grid-template-columns:1fr;
@@ -1764,8 +1767,6 @@ img:hover{
 
 .gallery-card img{
     height:220px;
-}
-
 }
 /* ==========================
    QUOTE CART
